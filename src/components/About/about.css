@@ -1,0 +1,26 @@
+.about__title {
+  background-color: #021934;
+  height: 20rem;
+  padding: 7rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .about__welcome,
+  .about__mission {
+    padding: 5rem 10rem;
+  }
+}
+
+.about__welcome,
+.about__mission {
+  padding: 10% 10%;
+}
+
+.about .counter {
+  background-color: #cfdeef;
+  color: #021934;
+}
+
+.about .icon {
+  color: #021934;
+}

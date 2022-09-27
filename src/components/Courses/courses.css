@@ -1,0 +1,53 @@
+.btn--wide {
+  width: 10rem;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  left: -100%;
+  margin: 0;
+  transition: 850ms;
+}
+
+.sidebar--active {
+  left: 0;
+  transition: 350ms;
+  border-right: 1px solid rgb(169, 168, 168);
+}
+
+.carousel-control-prev-icon {
+  margin-right: 2rem;
+}
+
+.carousel-control-next-icon {
+  margin-left: 2rem;
+}
+
+.btn--filter {
+  background-color: #fcecf3;
+  color: var(--primary-color);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.btn--filter:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.pagination .page-link {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.pagination .page-link:hover {
+  cursor: pointer;
+  color: var(--text-darkGrey);
+}

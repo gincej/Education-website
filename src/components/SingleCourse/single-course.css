@@ -1,0 +1,114 @@
+.course-header {
+  background-image: url(../Images/Course-Header.jpg);
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  padding: 5rem 8rem;
+}
+
+.course,
+.schedule,
+.mentor,
+.ratings,
+.mentor__courses {
+  padding: 5rem;
+}
+
+@media only screen and (max-width: 700px) {
+  #overlay {
+    padding: 3rem;
+  }
+
+  .course-header button {
+    font-size: 1.25rem;
+  }
+
+  .course-header .header__label p {
+    font-size: 0.75rem;
+  }
+
+  .course,
+  .schedule,
+  .mentor,
+  .ratings,
+  .mentor__courses {
+    padding: 2rem;
+  }
+}
+
+.creator__picture,
+.image__item {
+  border-radius: 50%;
+}
+
+.btn--share {
+  background-color: white;
+  color: var(--primary-color);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.btn--share:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.icon {
+  color: var(--primary-color);
+}
+
+.features__body {
+  background-color: #fff5f9;
+  border-radius: 8px;
+}
+
+.feature-item {
+  padding-bottom: 3rem;
+}
+
+.course-features {
+  padding: 5rem 0;
+}
+
+/* accordion header */
+.schedule #panel1a-header {
+  background-color: #fff5f9;
+}
+
+.schedule__item {
+  padding-bottom: 1rem;
+}
+
+.reviews__icons {
+  color: #021934;
+}
+
+.course-card {
+  width: 25rem;
+  margin: 5rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .course-card {
+    width: 80%;
+    margin: 2rem;
+  }
+}
+
+.btn--secondary {
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.btn--secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+}
